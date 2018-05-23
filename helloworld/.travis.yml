@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - oraclejdk8
+os:
+  - linux
+before_script:
+  - cd helloworld
+script:
+  - ./gradlew clean build
